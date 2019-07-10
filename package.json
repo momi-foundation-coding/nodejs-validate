@@ -1,0 +1,30 @@
+{
+  "name": "kemboijs-validator",
+  "version": "1.0.0",
+  "description": "This is kemboijs validator middleware build from validator.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemboijs/kemboijs-validator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "validator",
+    "validatorjs",
+    "kemboijs",
+    "nodejs",
+    "middleware"
+  ],
+  "author": "Ezrqn Kemboi <ezrqnkemboi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemboijs/kemboijs-validator/issues"
+  },
+  "homepage": "https://github.com/kemboijs/kemboijs-validator#readme",
+  "dependencies": {
+    "validator": "^11.1.0"
+  }
+}
