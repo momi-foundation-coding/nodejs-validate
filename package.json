@@ -26,5 +26,8 @@
   "homepage": "https://github.com/kemboijs/kemboijs-validator#readme",
   "dependencies": {
     "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2"
   }
 }

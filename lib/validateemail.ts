@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function isEmail(email) {
+function validateEmail(email) {
     var validEmail = validator.isEmail(email);
     /**
      * TODO
@@ -16,4 +16,4 @@ function isEmail(email) {
     return validEmail;
 };
 
-exports = module.exports = isEmail;
+exports = module.exports = validateEmail;

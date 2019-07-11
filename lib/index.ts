@@ -1,4 +1,4 @@
-var isEmail = require("./isemail");
+var isEmail = require("./validateemail");
 
 var kemboijsValidator = {
     isEmail,
