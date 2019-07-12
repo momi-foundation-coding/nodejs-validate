@@ -1,9 +1,22 @@
-# kemboijs-validator
-This is a validation middleware for kemboijs (API based NodeJS framework). Note that, this validator makes use of validator.js
+[![Build Status](https://travis-ci.org/kemboijs/kemboijs-validator.svg?branch=master)](https://travis-ci.org/kemboijs/kemboijs-validator)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f527634ef1f39b791153/maintainability)](https://codeclimate.com/github/kemboijs/kemboijs-validator/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f527634ef1f39b791153/test_coverage)](https://codeclimate.com/github/kemboijs/kemboijs-validator/test_coverage)
 
-# How to use
+# Kemboijs Validator
+
+This is a validation middleware for Nodejs application and API including validations when using frameworks such as [kemboijs](https://kemboijs.github.io/kemboijs.org). It can be used to validate request or sanitize them. Note that, this validator makes use of validator.js.
+
+# How to Install and Usage 
 
 - `npm install kemboijs-validator`
+
+# Examples 
+
+```javascript 
+    var validator = require("kemboijs-validator");
+    var validEmail = validator.isEmail("example@example.com");
+    var invalidEmail = validator.isEmail("notvalida@invalid");
+```
 
 # Contributors
 

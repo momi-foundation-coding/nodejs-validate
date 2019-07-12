@@ -4,7 +4,7 @@
   "description": "This is kemboijs validator middleware build from validator.js",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node ./test/index.ts"
   },
   "repository": {
     "type": "git",

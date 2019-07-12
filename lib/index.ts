@@ -1,27 +1,27 @@
-var isApha = require("./validatealpha");
-var isAphaNumeric = require("./validatealphanumeric");
-var isCreditCard = require("./validatecreditcard");
-var isCurrency = require("./validatecurrency");
-var isEmail = require("./validateemail");
-var isFloat = require("./validatefloat");
-var isHexColor = require("./validatehexcolor");
-var isInt = require("./validateint");
-var isIP = require("./validateip");
-var isISNB = require("./validateisnb");
-var isJson = require("./validatejson");
-var isLowerCase = require("./validatelowercase");
-var isMACAddress = require("./validatemacaddress");
-var isMobilePhone = require("./validatemobilephone");
-var isMongoID = require("./validatemongoid");
-var isNumeric = require("./validatenumeric");
-var isPort = require("./validateport");
-var isUppercase = require("./validateuppercase");
-var isURL = require("./validateurl");
-var isUUID = require("./validateuuid");
+var isAlpha = require("./validatealpha.ts");
+var isAlphaNumeric = require("./validatealphanumeric.ts");
+var isCreditCard = require("./validatecreditcard.ts");
+var isCurrency = require("./validatecurrency.ts");
+var isEmail = require("./validateemail.ts");
+var isFloat = require("./validatefloat.ts");
+var isHexColor = require("./validatehexcolor.ts");
+var isInt = require("./validateint.ts");
+var isIP = require("./validateip.ts");
+var isISNB = require("./validateisnb.ts");
+var isJSON = require("./validatejson.ts");
+var isLowercase = require("./validatelowercase.ts");
+var isMACAddress = require("./validatemacaddress.ts");
+var isMobilePhone = require("./validatemobilephone.ts");
+var isMongoID = require("./validatemongoid.ts");
+var isNumeric = require("./validatenumeric.ts");
+var isPort = require("./validateport.ts");
+var isUppercase = require("./validateuppercase.ts");
+var isURL = require("./validateurl.ts");
+var isUUID = require("./validateuuid.ts");
 
 var kemboijsValidator = {
-    isApha,
-    isAphaNumeric,
+    isAlpha,
+    isAlphaNumeric,
     isCreditCard,
     isCurrency,
     isEmail,
@@ -30,8 +30,8 @@ var kemboijsValidator = {
     isInt,
     isIP,
     isISNB,
-    isJson,
-    isLowerCase,
+    isJSON,
+    isLowercase,
     isMACAddress,
     isMobilePhone,
     isMongoID,

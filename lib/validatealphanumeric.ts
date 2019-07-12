@@ -1,7 +1,7 @@
 var validator = require("validator");
 
 function validateAlphaNumeric(alphaNumeric) {
-    var validAlphaNumeric = validator.isNumeric(alphaNumeric);
+    var validAlphaNumeric = validator.isAlphanumeric(alphaNumeric);
     return validAlphaNumeric;
 }
 

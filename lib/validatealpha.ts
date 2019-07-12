@@ -1,7 +1,7 @@
 var validator = require("validator");
 
 function validateAlpha(alpha) {
-    var validAlpha = validator.isApha(alpha);
+    var validAlpha = validator.isAlpha(alpha);
     return validAlpha;
 }
 

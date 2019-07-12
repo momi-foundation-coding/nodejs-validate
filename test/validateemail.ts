@@ -1,8 +1,8 @@
 var assert = require('assert');
-var validator = require('../index');
+var validator = require('../index.ts');
 
 var validEmail = validator.isEmail('email@email.com');
 var inValidEmail = validator.isEmail('notemail@notemail');
 
-assert(validEmail, true);
-assert(inValidEmail, false);
+assert.strictEqual(validEmail, true);
+assert.strictEqual(inValidEmail, false);

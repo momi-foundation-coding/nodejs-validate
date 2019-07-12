@@ -1,7 +1,7 @@
 var validator = require("validator");
 
 function validateUpperCase(uppercase) {
-    var validUpperCase = validator.isUpperCase(uppercase);
+    var validUpperCase = validator.isUppercase(uppercase);
     return validUpperCase;
 }
 
