@@ -8,5 +8,11 @@ var validator = require("../lib/index.ts");
 var validMACAddress = validator.isMACAddress("A9:C5:D4:9F:EB:D3");
 var invalidMACAddress = validator.isMACAddress("A9-C5-9IF-EB-D3");
 
-assert.strictEqual(validMACAddress, true);
-assert.strictEqual(invalidMACAddress, false);
+describe("Validate MAC address", () => {
+    it("should return true", () => {
+        assert.strictEqual(validMACAddress, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidMACAddress, false);
+    });
+});

@@ -9,5 +9,11 @@ var validator = require("../lib/index.ts");
 var validCurrency = validator.isCurrency("$12.90");
 var invalidCurrency = validator.isCurrency("$12.900");
 
-assert.strictEqual(validCurrency, true);
-assert.strictEqual(invalidCurrency, false);
+describe("Validate Credit Card", () => {
+    it("should return true", () => {
+        assert.strictEqual(validCurrency, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidCurrency, false);
+    });
+});

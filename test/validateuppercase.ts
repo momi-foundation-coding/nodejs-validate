@@ -4,5 +4,11 @@ var validator = require("../lib/index.ts");
 var validUppercase = validator.isUppercase("ADBH");
 var invalidUppercase = validator.isUppercase("aaaaahH");
 
-assert.strictEqual(validUppercase, true);
-assert.strictEqual(invalidUppercase, false);
+describe("Validate Uppercase", () => {
+    it("should return true", () => {
+        assert.strictEqual(validUppercase, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidUppercase, false);
+    });
+});

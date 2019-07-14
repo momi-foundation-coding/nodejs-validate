@@ -6,5 +6,11 @@ var validNumeric = validator.isNumeric("1");
 // Also, is float a valid numeric value
 var invalidNumeric = validator.isNumeric("1..");
 
-assert.strictEqual(validNumeric, true);
-assert.strictEqual(invalidNumeric, false);
+describe("Validate Numeric", () => {
+    it("should return true", () => {
+        assert.strictEqual(validNumeric, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidNumeric, false);
+    });
+});

@@ -4,5 +4,11 @@ var validator = require("../lib/index.ts");
 var isValidAlphaNumeric = validator.isAlphaNumeric("23ABC");
 var isNotValidAlphaNumeric = validator.isAlphaNumeric("...?");
 
-assert.strictEqual(isValidAlphaNumeric, true);
-assert.strictEqual(isNotValidAlphaNumeric, false);
+describe("Validate Alpha Numeric", () => {
+    it("should return true", () => {
+        assert.strictEqual(isValidAlphaNumeric, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(isNotValidAlphaNumeric, false);
+    });
+});

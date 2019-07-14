@@ -4,7 +4,7 @@
   "description": "This is kemboijs validator middleware build from validator.js",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/index.ts"
+    "test": "nyc --reporter=lcov --reporter=text mocha --require ts-node/register --watch-extensions ts,tsx test/**/*.{ts,tsx} [...args]"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,21 @@
     "validator": "^11.1.0"
   },
   "devDependencies": {
-    "@types/node": "^12.6.2"
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "lib/**"
+    ],
+    "extension": [
+      ".ts",
+      ".tsx"
+    ]
   }
 }

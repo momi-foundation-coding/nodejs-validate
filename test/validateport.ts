@@ -5,5 +5,11 @@ var validator = require("../lib/index.ts");
 var validPort = validator.isPort("655");
 var invalidPort = validator.isPort("65536");
 
-assert.strictEqual(validPort, true);
-assert.strictEqual(invalidPort, false);
+describe("Validate PORT", () => {
+    it("should return true", () => {
+        assert.strictEqual(validPort, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidPort, false);
+    });
+});

@@ -5,5 +5,11 @@ var validator = require("../lib/index.ts");
 var validFloat = validator.isFloat("12.9");
 var invalidFloat = validator.isFloat("w");
 
-assert.strictEqual(validFloat, true);
-assert.strictEqual(invalidFloat, false);
+describe("Validate Float", () => {
+    it("should return true", () => {
+        assert.strictEqual(validFloat, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidFloat, false);
+    });
+});

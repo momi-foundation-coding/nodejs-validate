@@ -5,5 +5,11 @@ var validator = require("../lib/index.ts");
 var validInt = validator.isInt("12");
 var invalidInt = validator.isInt("we");
 
-assert.strictEqual(validInt, true);
-assert.strictEqual(invalidInt, false);
+describe("Validate Int", () => {
+    it("should return true", () => {
+        assert.strictEqual(validInt, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidInt, false);
+    });
+});

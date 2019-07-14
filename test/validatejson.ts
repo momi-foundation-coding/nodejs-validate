@@ -10,5 +10,11 @@ var validJson = validator.isJSON(`{ "name": "John" }`);
 */
 var invalidJson = validator.isJSON("978-3-16-148410-02");
 
-assert.strictEqual(validJson, true);
-assert.strictEqual(invalidJson, false);
+describe("Validate JSON", () => {
+    it("should return true", () => {
+        assert.strictEqual(validJson, true);
+    });
+    it("should return false", () => {
+        assert.strictEqual(invalidJson, false);
+    });
+});
