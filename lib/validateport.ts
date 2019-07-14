@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validatePort(port) {
+function validatePort(port: string) {
     var validPort = validator.isPort(port);
     return validPort;
 }

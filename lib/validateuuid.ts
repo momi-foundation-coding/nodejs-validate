@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateUuid(uuid) {
+function validateUuid(uuid: string) {
     var validUuid = validator.isUUID(uuid);
     return validUuid;
 }

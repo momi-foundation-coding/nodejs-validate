@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateLowerCase(lowercase) {
+function validateLowerCase(lowercase: string) {
     var validLowerCase = validator.isLowercase(lowercase);
     return validLowerCase;
 }

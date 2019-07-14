@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateHexColor(hexColor) {
+function validateHexColor(hexColor: string) {
     var validHexColor = validator.isHexColor(hexColor);
     return validHexColor;
 }

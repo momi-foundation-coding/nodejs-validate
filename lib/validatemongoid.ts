@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateMongoId(mongoId) {
+function validateMongoId(mongoId: string) {
     var validMongoId = validator.isMongoId(mongoId);
     return validMongoId;
 }

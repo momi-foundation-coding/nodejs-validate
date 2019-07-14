@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateJson(json) {
+function validateJson(json: string) {
     var validJson = validator.isJSON(json);
     return validJson;
 }

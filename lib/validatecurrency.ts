@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateCurrency(currency) {
+function validateCurrency(currency: string) {
     var validCurrency = validator.isCurrency(currency);
     return validCurrency;
 };

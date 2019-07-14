@@ -1,6 +1,6 @@
 var validator = require("validator");
 
-function validateEmail(email) {
+function validateEmail(email: string) {
     var validEmail = validator.isEmail(email);
     /**
      * TODO

@@ -1,8 +1,8 @@
 var validator = require("validator");
 
-function validateCreditCard(creditCard) {
-    var creditCard = validator.isCreditCard(creditCard);
-    return creditCard;
+function validateCreditCard(creditCard: string) {
+    var validCreditCard = validator.isCreditCard(creditCard);
+    return validCreditCard;
 }
 
 exports = module.exports = validateCreditCard;
