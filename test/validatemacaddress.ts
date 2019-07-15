@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 /**
  * Do some investigations here

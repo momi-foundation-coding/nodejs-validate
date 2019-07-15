@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateJson(json: string) {
     var validJson = validator.isJSON(json);
     return validJson;
 }
 
-exports = module.exports = validateJson;
+export default validateJson;

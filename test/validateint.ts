@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 // It only accepts string and no passing numbers
 var validInt = validator.isInt("12");

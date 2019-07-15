@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateIsnb(isnb: string) {
     var validIsnb = validator.isISBN(isnb);
     return validIsnb;
 }
 
-exports = module.exports = validateIsnb;
+export default validateIsnb;

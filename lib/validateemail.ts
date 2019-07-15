@@ -1,4 +1,4 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateEmail(email: string) {
     var validEmail = validator.isEmail(email);
@@ -16,4 +16,4 @@ function validateEmail(email: string) {
     return validEmail;
 };
 
-exports = module.exports = validateEmail;
+export default validateEmail;

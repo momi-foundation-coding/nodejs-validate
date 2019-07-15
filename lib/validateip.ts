@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateIp(ip: string) {
     var validIp = validator.isIP(ip);
     return validIp;
 }
 
-exports = module.exports = validateIp;
+export default validateIp;

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var validUppercase = validator.isUppercase("ADBH");
 var invalidUppercase = validator.isUppercase("aaaaahH");

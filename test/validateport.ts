@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 // Why expect string and I am passing number
 var validPort = validator.isPort("655");

@@ -1,5 +1,5 @@
 var assert = require('assert');
-var validator = require('../index.ts');
+import validator from '../lib';
 
 var validEmail = validator.isEmail('email@email.com');
 var inValidEmail = validator.isEmail('notemail@notemail');

@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateHexColor(hexColor: string) {
     var validHexColor = validator.isHexColor(hexColor);
     return validHexColor;
 }
 
-exports = module.exports = validateHexColor;
+export default validateHexColor;

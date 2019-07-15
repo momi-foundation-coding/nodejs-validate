@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
-function validateMobilePhone(mobilePhone: string) {
-    var validMobilePhone = validator.isMobilePhone(mobilePhone);
+function validateMobilePhone(mobilePhone: string, locale) {
+    var validMobilePhone = validator.isMobilePhone(mobilePhone, locale);
     return validMobilePhone;
 }
 
-exports = module.exports = validateMobilePhone;
+export default validateMobilePhone;

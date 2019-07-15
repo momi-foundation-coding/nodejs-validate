@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateUrl(url: string) {
     var validUrl = validator.isURL(url);
     return validUrl;
 }
 
-exports = module.exports = validateUrl;
+export default validateUrl;

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var validCreditCard = validator.isCreditCard("5555555555554444");
 var invalidCreditCard = validator.isCreditCard("12793833j8");

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var validIsnb = validator.isISNB("978-3-16-148410-0");
 var validIsnb2 = validator.isISNB("0-19-852663-6");

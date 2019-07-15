@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateUuid(uuid: string) {
     var validUuid = validator.isUUID(uuid);
     return validUuid;
 }
 
-exports = module.exports = validateUuid;
+export default validateUuid;

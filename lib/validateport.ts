@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validatePort(port: string) {
     var validPort = validator.isPort(port);
     return validPort;
 }
 
-exports = module.exports = validatePort;
+export default validatePort;

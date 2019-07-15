@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateFloat(float: string) {
     var validFloat = validator.isFloat(float);
     return validFloat;
 }
 
-exports = module.exports = validateFloat;
+export default validateFloat;

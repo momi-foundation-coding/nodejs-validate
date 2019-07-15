@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateMacAddress(macAddress: string) {
     var validMacAddress = validator.isMACAddress(macAddress);
     return validMacAddress;
 }
 
-exports = module.exports = validateMacAddress;
+export default validateMacAddress;

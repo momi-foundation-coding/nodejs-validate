@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var validHexColor = validator.isHexColor("#00FF00");
 var invalidHexColor = validator.isHexColor("#00FF009");

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 // Why does it not allow numbers insertion. Will need to check on this
 var validFloat = validator.isFloat("12.9");

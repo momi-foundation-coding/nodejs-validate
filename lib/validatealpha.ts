@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateAlpha(alpha: string) {
     var validAlpha = validator.isAlpha(alpha);
     return validAlpha;
 }
 
-exports = module.exports = validateAlpha;
+export default validateAlpha;

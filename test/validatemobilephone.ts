@@ -1,8 +1,8 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
-var validMobilePhone = validator.isMobilePhone("+254726784945");
-var invalidMobilePhone = validator.isMobilePhone("op900022233");
+var validMobilePhone = validator.isMobilePhone("+254726784945", "");
+var invalidMobilePhone = validator.isMobilePhone("op900022233", "");
 
 describe("Validate MAC address", () => {
     it("should return true", () => {

@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateUpperCase(uppercase: string) {
     var validUpperCase = validator.isUppercase(uppercase);
     return validUpperCase;
 }
 
-exports = module.exports = validateUpperCase;
+export default validateUpperCase;

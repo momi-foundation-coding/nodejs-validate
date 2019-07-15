@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var validURL = validator.isURL("https://github.com/kemboijs/kemboijs-validator");
 var invalidURL = validator.isURL("thisisnoturl");

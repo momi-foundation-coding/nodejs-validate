@@ -1,8 +1,8 @@
-var validator = require("validator");
+import validator from 'validator';
 
 function validateMongoId(mongoId: string) {
     var validMongoId = validator.isMongoId(mongoId);
     return validMongoId;
 }
 
-exports = module.exports = validateMongoId;
+export default validateMongoId;

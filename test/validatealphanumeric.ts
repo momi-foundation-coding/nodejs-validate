@@ -1,5 +1,5 @@
 var assert = require("assert");
-var validator = require("../lib/index.ts");
+import validator from '../lib';
 
 var isValidAlphaNumeric = validator.isAlphaNumeric("23ABC");
 var isNotValidAlphaNumeric = validator.isAlphaNumeric("...?");

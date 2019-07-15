@@ -1,25 +1,25 @@
-var isAlpha = require("./validatealpha.ts");
-var isAlphaNumeric = require("./validatealphanumeric.ts");
-var isCreditCard = require("./validatecreditcard.ts");
-var isCurrency = require("./validatecurrency.ts");
-var isEmail = require("./validateemail.ts");
-var isFloat = require("./validatefloat.ts");
-var isHexColor = require("./validatehexcolor.ts");
-var isInt = require("./validateint.ts");
-var isIP = require("./validateip.ts");
-var isISNB = require("./validateisnb.ts");
-var isJSON = require("./validatejson.ts");
-var isLowercase = require("./validatelowercase.ts");
-var isMACAddress = require("./validatemacaddress.ts");
-var isMobilePhone = require("./validatemobilephone.ts");
-var isMongoID = require("./validatemongoid.ts");
-var isNumeric = require("./validatenumeric.ts");
-var isPort = require("./validateport.ts");
-var isUppercase = require("./validateuppercase.ts");
-var isURL = require("./validateurl.ts");
-var isUUID = require("./validateuuid.ts");
+import isAlpha from "./validatealpha";
+import isAlphaNumeric from "./validatealphanumeric";
+import isCreditCard from "./validatecreditcard";
+import isCurrency from "./validatecurrency";
+import isEmail from "./validateemail";
+import isFloat from "./validatefloat";
+import isHexColor from "./validatehexcolor";
+import isInt from "./validateint";
+import isIP from "./validateip";
+import isISNB from "./validateisnb";
+import isJSON from "./validatejson";
+import isLowercase from "./validatelowercase";
+import isMACAddress from "./validatemacaddress";
+import isMobilePhone from "./validatemobilephone";
+import isMongoID from "./validatemongoid";
+import isNumeric from "./validatenumeric";
+import isPort from "./validateport";
+import isUppercase from "./validateuppercase";
+import isURL from "./validateurl";
+import isUUID from "./validateuuid";
 
-var kemboijsValidator = {
+const kemboijsValidator = {
     isAlpha,
     isAlphaNumeric,
     isCreditCard,
@@ -42,4 +42,4 @@ var kemboijsValidator = {
     isUUID
 }
 
-exports = module.exports = kemboijsValidator;
+export default kemboijsValidator;
