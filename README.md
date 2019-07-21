@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/kemboijs/kemboijs-validator.svg?branch=master)](https://travis-ci.org/kemboijs/kemboijs-validator)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f527634ef1f39b791153/maintainability)](https://codeclimate.com/github/kemboijs/kemboijs-validator/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/f527634ef1f39b791153/test_coverage)](https://codeclimate.com/github/kemboijs/kemboijs-validator/test_coverage)
+[![Coverage Status](https://coveralls.io/repos/github/kemboijs/kemboijs-validator/badge.svg?branch=master)](https://coveralls.io/github/kemboijs/kemboijs-validator?branch=master)
 
 # Kemboijs Validator
 
