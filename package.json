@@ -1,7 +1,7 @@
 {
-  "name": "kemboijs-validator",
-  "version": "1.0.0",
-  "description": "This is kemboijs validator middleware build from validator.js",
+  "name": "nodejs-validator",
+  "version": "0.0.1",
+  "description": "This is nodejs-validator middleware build from validator.js",
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=lcov --reporter=text mocha --require ts-node/register --watch-extensions ts,tsx test/**/*.{ts,tsx} [...args]",
