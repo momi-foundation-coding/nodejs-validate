@@ -1,4 +1,4 @@
-var assert = require("assert");
+import assert from "assert";
 import validator from '../lib';
 
 var isValidAlphaNumeric = validator.isAlphaNumeric("23ABC");

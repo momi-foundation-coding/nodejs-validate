@@ -1,4 +1,4 @@
-var assert = require("assert");
+import assert from "assert";
 import validator from '../lib';
 
 var validUUID = validator.isUUID("a5764857-ae35-34dc-8f25-a9c9e73aa898");

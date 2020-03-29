@@ -1,3 +1,3 @@
-"use strict"
+import validator from './lib';
 
-module.exports = require("./lib/index.ts");
+export default validator;

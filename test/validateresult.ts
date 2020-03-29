@@ -1,4 +1,4 @@
-var assert = require("assert");
+import assert from "assert";
 import validateResult from '../lib/checks/validateresult';
 
 var validResult = validateResult({
