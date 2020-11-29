@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 // Why does it not allow numbers insertion. Will need to check on this

@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validIsnb = validator.isISNB("978-3-16-148410-0");
