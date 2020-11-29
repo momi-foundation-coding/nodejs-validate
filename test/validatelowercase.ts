@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validLowercase = validator.isLowercase("abcdef");

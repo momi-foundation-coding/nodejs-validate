@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validURL = validator.isURL("https://github.com/kemboijs/kemboijs-validator");

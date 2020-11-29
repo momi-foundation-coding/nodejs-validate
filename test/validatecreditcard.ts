@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validCreditCard = validator.isCreditCard("5555555555554444");

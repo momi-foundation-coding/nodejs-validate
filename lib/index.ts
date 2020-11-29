@@ -19,7 +19,7 @@ import isUppercase from "./validateuppercase";
 import isURL from "./validateurl";
 import isUUID from "./validateuuid";
 
-const kemboijsValidator = {
+const nodejsValidator = {
     isAlpha,
     isAlphaNumeric,
     isCreditCard,
@@ -42,4 +42,4 @@ const kemboijsValidator = {
     isUUID
 }
 
-export default kemboijsValidator;
+export default nodejsValidator;

@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validMongoId = validator.isMongoID("551137c2f9e1fac808a5f572");

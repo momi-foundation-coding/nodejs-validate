@@ -1,4 +1,4 @@
-import assert from "assert";
+import * as assert from "assert";
 import validator from '../lib';
 
 var validMobilePhone = validator.isMobilePhone("+254726784945", "");
